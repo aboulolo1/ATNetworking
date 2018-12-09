@@ -17,16 +17,19 @@ first you should import the framework : #import <ATNetwok/ATNetwok.h>
 
 Data Request:
 
-[ATNetworking requestWithMethod:@"get" url:url parameters:parameters headers:headers result:^(NSData *data, NSURLResponse *response, NSError *err) { }];
+[ATNetworking requestWithMethod:@"get" url:url parameters:parameters headers:headers result:^(NSData *data, NSURLResponse *response, NSError *err) {
+}];
 
 
 upload data:
 
-[ATNetworking uploadDataWithMethod:@"get" url:url parameters:parameters headers:headers data:data result:^(NSData *data, NSURLResponse *response, NSError *err) {  }];
+[ATNetworking uploadDataWithMethod:@"get" url:url parameters:parameters headers:headers data:data result:^(NSData *data, NSURLResponse *response, NSError *err) { 
+}];
     
 download data:
 
-[ATNetworking downloaddDataWithMethod:@"get" url:url parameters:parameters headers:headers data:data result:^(NSData *data, NSURLResponse *response, NSError *err) {  }];
+[ATNetworking downloaddDataWithMethod:@"get" url:url parameters:parameters headers:headers data:data result:^(NSData *data, NSURLResponse *response, NSError *err) {  
+}];
     
     
  Dowanload Image With activityIndicator:
